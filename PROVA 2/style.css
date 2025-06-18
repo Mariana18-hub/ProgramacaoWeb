@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(70, 28, 35);
+  color: aliceblue;
+
+
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#mensagem {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(180, 209, 161);
+  color: rgb(2, 39, 2);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button:hover {
+  background: rgb(71, 13, 19);
+  color: rgb(255, 255, 255);
+}
+
+.oculto {
+  display: none;
+}
