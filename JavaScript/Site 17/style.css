@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: rgba(44, 8, 8, 0.966);
+  color: rgb(240, 230, 230);
+  margin-top: 100px;
+}
+
+#quadrado {
+  padding: 15px;
+  color: black;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(75, 25, 25);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}

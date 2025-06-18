@@ -1,0 +1,33 @@
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(194, 230, 226);
+    padding: 20px;
+    color: rgb(28, 76, 117);
+    
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 104, 114);
+    
+}
+
+button:hover {
+    background: rgb(124, 178, 197);
+    color: rgb(255, 255, 255);
+}
+
+#resultado {
+    color: rgb(28, 76, 117);
+    padding: 20px;
+    font-size: 25px;
+}
+
+

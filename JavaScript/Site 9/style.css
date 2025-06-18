@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+}
+
+button:hover {
+    background: rgb(92, 45, 1);
+    color: rgb(192, 134, 58);
+}
