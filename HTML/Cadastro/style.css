@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: block;
+    width: 25%;
+    border: 15px dashed rgba(72, 11, 11, 0.967);
+    padding:20px;
+    text-align: center;
+}

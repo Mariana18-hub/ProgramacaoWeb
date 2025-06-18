@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Georgia, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}
+
+header {
+    background-color: rgb(233, 80, 37);
+    color: rgb(252, 162, 26);
+    text-align: center;
+    padding: 15px;
+    animation: exemple 1s linear 1s infinite alternate  ;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.box {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(25% - 20px);
+    min-width: 120px;
+    justify-content: center;
+    background-color: rgb(247, 149, 68);
+    font-weight: bold;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color:  rgb(233, 80, 37);
+    color: rgb(252, 162, 26);
+    text-align: center;
+    padding: 15px;
+    animation: exemple 1s linear 1s infinite alternate  ;
+}
+
+@keyframes exemple {
+    0% {background-color:rgb(209, 80, 16); }
+    25% { background-color:rgb(230, 151, 25); }
+    50% { background-color:rgb(221, 113, 36);}
+    75% {background-color:rgb(226, 53, 53) ;}
+    100% {background-color: rgb(255, 55, 0);}
+}

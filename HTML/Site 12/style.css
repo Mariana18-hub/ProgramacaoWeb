@@ -1,0 +1,74 @@
+body {
+  margin: 10px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 97vh;
+  background-color: rgb(127, 166, 187);
+}
+
+.header {
+  grid-column: 1 / -1;
+  background:  rgb(9, 17, 59);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  animation: exemple 1s linear 1s infinite alternate ;
+}
+
+
+.sidebar {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  background:   rgb(9, 17, 59);
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+  color: whitesmoke;
+  animation: exemple 1s linear 1s infinite alternate;
+  
+
+}
+
+.main {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  color: whitesmoke;
+
+}
+
+.content-box {
+  background:   rgb(9, 17, 59);
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  animation: exemple 1s linear 1s infinite alternate ;
+ 
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background: rgb(9, 17, 59);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: whitesmoke;
+  animation: exemple 1s linear 1s infinite alternate;
+}
+@keyframes exemple {
+  0% {background-color:rgb(15, 50, 108); }
+  25% { background-color:rgb(0, 25, 80); }
+  50% { background-color:rgb(0, 25, 72);}
+  75% {background-color:rgb(22, 13, 86) ;}
+  100% {background-color: rgb(8, 13, 59);}
+    
+
+}
+
